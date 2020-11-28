@@ -51,10 +51,10 @@ def construct_tree(inorder, start, end):
 
 if __name__ == '__main__':
     # input sequence of numbers representing the in-order sequence
-    inorder = [9, 3, 7, 1, 8, 12, 10, 20, 15, 18, 5]
+    inorder_array = [9, 3, 7, 1, 8, 12, 10, 20, 15, 18, 5]
 
     # construct the Cartesian tree
-    root = construct_tree(inorder, 0, len(inorder) - 1)
+    root = construct_tree(inorder_array, 0, len(inorder_array) - 1)
 
     # print the Cartesian tree
     print("Inorder Traversal of constructed Cartesian tree is: ", end='')
