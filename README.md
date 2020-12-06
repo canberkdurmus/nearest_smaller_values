@@ -1,5 +1,7 @@
 # Nearest Smaller Values
-Advanced Data Structures Project: Using cartesian tree to solve all nearest smaller values problem
+Advanced Data Structures Project: A Python implementation to use cartesian trees to solve all nearest smaller values problem
+
+Detailed description for the problem can be found here: J. Shun and G. E. Blelloch, "A simple parallel cartesian tree algorithm and its application to parallel suffix tree construction", ACM Transactions on Parallel Computing (TOPC), 2014.
 
 Input data is in the data.txt file and seperated by ' ,' (one whitespace and a comma)
 
